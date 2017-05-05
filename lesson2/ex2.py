@@ -14,4 +14,4 @@ with tf.Session() as session:
     session.run(model)
     runresult = session.run(y)
     print("Length of result: %d"%(len(runresult)))
-    print(result)
+    print(runresult)
